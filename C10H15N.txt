@@ -1,1 +1,29 @@
 
+(B) = in base game
+(G) = Gas
+(P) = Powder
+(L) = Liquid
+(S) = Solid
+(E) = Energy
+(PRO) = Process (All processes are base)
+The Temprature Required Of Reations Will Be Specified When Pertinent (TEMPC)
+
+Pseudoephedrine cook: {
+
+Pseudo_Pill (P) + Smashing (PRO) = Pseudo_Pill_Powder (P) 
+
+Pseudo_Pill_Powder (P) + Denatured_Alcohol (L) = Pseudo_Solution (L) 
+
+Pseudo_Solution (L) + Iodide (P) = Incomplete_Cook_Solution (L) 
+
+Incomplete_Cook_Solution (L) + Red_Phosphorus (P) = Cook_Solution (L) 
+
+Cook_Solution (L) = Heat (PRO)(125C) = Acidic_Impure_C10H15N_Solution (L) + Phosphene_Gas (G) 
+
+Acidic_Impure_C10H15N_Solution (L) + Lye (B)(P) = Impure_C10H15N_Solution (L) 
+
+Impure_C10H15N_Solution (L) + Lamp_Oil (B)(L) = Organic_C10H15N_Solution (L) + Cook_Waste (L) UA
+
+Organic_C10H15N_Solution (L) + Hydrogen_Chloride (G) = Crystal_C10H15N (P) UA
+
+Pseudoephedrine cook } Phosphorus
