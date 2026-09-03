@@ -112,12 +112,14 @@
 
                 if (n.element === "iodine") {
                     if (Math.random() < 0.1) {
+						if (pixel.temp < 700 && pixel.temp > 500) {
                         changePixel(pixel, "incomplete_cook_solution");
                         deletePixel(c.x, c.y);
                     }
                 }
             }
         }
+						  }
 		 };
  // ---------------- Incomplete Cook Solution ----------------
     elements.incomplete_cook_solution = {
